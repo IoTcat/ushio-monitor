@@ -6,4 +6,4 @@ MAINTAINER iotcat (i@iotcat.me)
 COPY src src/
 
 
-CMD [ "python", "/src/client-linux.py" ]
+ENTRYPOINT [ "python", "/src/client-linux.py" ]
